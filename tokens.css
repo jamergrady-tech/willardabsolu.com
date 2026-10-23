@@ -1,0 +1,17 @@
+/* WAI v3 tokens — anubi-inspired light editorial system (our own values/code) */
+@font-face{font-family:"Bricolage Grotesque";src:url(fonts/Bricolage.ttf) format("truetype");font-weight:200 800;font-stretch:75% 100%;font-display:swap}
+@font-face{font-family:"Epilogue";src:url(fonts/Epilogue.ttf) format("truetype");font-weight:100 900;font-display:swap}
+@font-face{font-family:"IBM Plex Mono";src:url(fonts/PlexMono.ttf) format("truetype");font-display:swap}
+@font-face{font-family:"IBM Plex Mono";src:url(fonts/PlexMono-Medium.ttf) format("truetype");font-weight:500;font-display:swap}
+@font-face{font-family:"IBM Plex Mono";src:url(fonts/PlexMono-Bold.ttf) format("truetype");font-weight:700;font-display:swap}
+:root{
+  --paper:#FCFCFA; --paper-2:#F3F3EF; --pill:#ECECE8; --pill-2:#E2E2DD; --ink:#131313; --grey:#62625C; --grey-2:#8F8F88; --rule:#E6E6E2;
+  --night:#171715; --night-2:#22221F; --night-text:#FCFCFA; --night-dim:#A9A9A2; --accent:#B23A17; --accent-hi:#E0592F;
+  --f-display:"Epilogue",system-ui,sans-serif; --f-ui:"Bricolage Grotesque",system-ui,sans-serif; --f-mono:"IBM Plex Mono",ui-monospace,monospace;
+  --t-cap:.71rem; --t-body:1rem; --t-lead:1.25rem; --t-h-s:clamp(1.5rem,2.4vw,2.2rem); --t-h-m:clamp(2rem,4.5vw,4rem); --t-h-l:clamp(2.6rem,6.4vw,5.75rem); --t-giant:clamp(3rem,18vw,17rem);
+  --track-tight:-.06em; --track-ui:-.025em;
+  --s-1:.25rem; --s-2:.5rem; --s-3:1rem; --s-4:1.5rem; --s-5:2.5rem; --s-6:4rem; --s-7:8rem; --s-8:11rem;
+  --wrap:1360px; --pad:clamp(1rem,2.8vw,2.5rem); --r-pill:999px; --r-nav:32px; --r-card:14px;
+  --shadow-nav:0 2px 4px rgba(35,30,24,.03),0 10px 30px rgba(35,30,24,.08); --shadow-card:0 18px 40px rgba(20,18,14,.16);
+  --dur:220ms; --ease:cubic-bezier(.2,.7,.2,1);
+}

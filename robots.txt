@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://willardabsolu.com/sitemap.xml
